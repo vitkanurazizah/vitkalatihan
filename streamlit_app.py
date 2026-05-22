@@ -10,3 +10,7 @@ st.text("This is text\n[and more text](that's not a Markdown link).")
 import streamlit as st
 
 st.audio("cat-purr.mp3", format="audio/mpeg", loop=True)
+import streamlit as st
+
+st.title("This is a title")
+st.title("_Streamlit_ is :blue[cool] :sunglasses:")
