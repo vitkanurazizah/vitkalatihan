@@ -7,3 +7,6 @@ st.write(
 import streamlit as st
 
 st.text("This is text\n[and more text](that's not a Markdown link).")
+import streamlit as st
+
+st.audio("cat-purr.mp3", format="audio/mpeg", loop=True)
